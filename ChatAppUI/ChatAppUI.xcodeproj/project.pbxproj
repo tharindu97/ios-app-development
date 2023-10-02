@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77C79CD2AC97FAF00C55797 /* ChatAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79CC2AC97FAF00C55797 /* ChatAppUIApp.swift */; };
+		B77C79D12AC97FB200C55797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C79D02AC97FB200C55797 /* Assets.xcassets */; };
+		B77C79D52AC97FB200C55797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C79D42AC97FB200C55797 /* Preview Assets.xcassets */; };
+		B77C79DC2AC97FFA00C55797 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79DB2AC97FFA00C55797 /* BottomBar.swift */; };
+		B77C79E62AC9865000C55797 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79E52AC9865000C55797 /* StatusView.swift */; };
+		B77C79E82AC9867A00C55797 /* StatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79E72AC9867A00C55797 /* StatusManager.swift */; };
+		B77C79EA2ACAD52100C55797 /* StatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79E92ACAD52100C55797 /* StatusCardView.swift */; };
+		B77C79EC2ACAD91200C55797 /* StatusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79EB2ACAD91200C55797 /* StatusListView.swift */; };
+		B77C79EE2ACADBBD00C55797 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79ED2ACADBBD00C55797 /* InfoTextView.swift */; };
+		B77C79F02ACADD3E00C55797 /* MyStatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79EF2ACADD3E00C55797 /* MyStatusCardView.swift */; };
+		B77C79F42ACADF4400C55797 /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79F32ACADF4400C55797 /* CallsView.swift */; };
+		B77C79F62ACAE01100C55797 /* CallsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79F52ACAE01100C55797 /* CallsManager.swift */; };
+		B77C79F82ACAE0B100C55797 /* CallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79F72ACAE0B100C55797 /* CallCardView.swift */; };
+		B77C79FA2ACAE0FF00C55797 /* CallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79F92ACAE0FF00C55797 /* CallListView.swift */; };
+		B77C79FC2ACAE1B600C55797 /* CallLinkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79FB2ACAE1B600C55797 /* CallLinkCard.swift */; };
+		B77C79FE2ACAE42900C55797 /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C79FD2ACAE42900C55797 /* CommunitiesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B77C79C92AC97FAF00C55797 /* ChatAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77C79CC2AC97FAF00C55797 /* ChatAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUIApp.swift; sourceTree = "<group>"; };
+		B77C79D02AC97FB200C55797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77C79D22AC97FB200C55797 /* ChatAppUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatAppUI.entitlements; sourceTree = "<group>"; };
+		B77C79D42AC97FB200C55797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B77C79DB2AC97FFA00C55797 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		B77C79E52AC9865000C55797 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		B77C79E72AC9867A00C55797 /* StatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManager.swift; sourceTree = "<group>"; };
+		B77C79E92ACAD52100C55797 /* StatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCardView.swift; sourceTree = "<group>"; };
+		B77C79EB2ACAD91200C55797 /* StatusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusListView.swift; sourceTree = "<group>"; };
+		B77C79ED2ACADBBD00C55797 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
+		B77C79EF2ACADD3E00C55797 /* MyStatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatusCardView.swift; sourceTree = "<group>"; };
+		B77C79F32ACADF4400C55797 /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
+		B77C79F52ACAE01100C55797 /* CallsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsManager.swift; sourceTree = "<group>"; };
+		B77C79F72ACAE0B100C55797 /* CallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCardView.swift; sourceTree = "<group>"; };
+		B77C79F92ACAE0FF00C55797 /* CallListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListView.swift; sourceTree = "<group>"; };
+		B77C79FB2ACAE1B600C55797 /* CallLinkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLinkCard.swift; sourceTree = "<group>"; };
+		B77C79FD2ACAE42900C55797 /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77C79C62AC97FAF00C55797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B77C79C02AC97FAF00C55797 = {
+			isa = PBXGroup;
+			children = (
+				B77C79CB2AC97FAF00C55797 /* ChatAppUI */,
+				B77C79CA2AC97FAF00C55797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77C79CA2AC97FAF00C55797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79C92AC97FAF00C55797 /* ChatAppUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77C79CB2AC97FAF00C55797 /* ChatAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79E22AC9821700C55797 /* Status */,
+				B77C79E12AC9820B00C55797 /* Settings */,
+				B77C79E02AC981FD00C55797 /* Communities */,
+				B77C79DF2AC981F300C55797 /* Calls */,
+				B77C79DE2AC981E000C55797 /* Chats */,
+				B77C79CC2AC97FAF00C55797 /* ChatAppUIApp.swift */,
+				B77C79DB2AC97FFA00C55797 /* BottomBar.swift */,
+				B77C79D02AC97FB200C55797 /* Assets.xcassets */,
+				B77C79D22AC97FB200C55797 /* ChatAppUI.entitlements */,
+				B77C79D32AC97FB200C55797 /* Preview Content */,
+			);
+			path = ChatAppUI;
+			sourceTree = "<group>";
+		};
+		B77C79D32AC97FB200C55797 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79D42AC97FB200C55797 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B77C79DE2AC981E000C55797 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		B77C79DF2AC981F300C55797 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79F22ACADF0E00C55797 /* Components */,
+				B77C79F12ACADEFF00C55797 /* ViewModel */,
+				B77C79F32ACADF4400C55797 /* CallsView.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		B77C79E02AC981FD00C55797 /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79FD2ACAE42900C55797 /* CommunitiesView.swift */,
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		B77C79E12AC9820B00C55797 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B77C79E22AC9821700C55797 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79E42AC9862400C55797 /* Components */,
+				B77C79E32AC9861A00C55797 /* ViewModel */,
+				B77C79E52AC9865000C55797 /* StatusView.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		B77C79E32AC9861A00C55797 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79E72AC9867A00C55797 /* StatusManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B77C79E42AC9862400C55797 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79E92ACAD52100C55797 /* StatusCardView.swift */,
+				B77C79EB2ACAD91200C55797 /* StatusListView.swift */,
+				B77C79ED2ACADBBD00C55797 /* InfoTextView.swift */,
+				B77C79EF2ACADD3E00C55797 /* MyStatusCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B77C79F12ACADEFF00C55797 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79F52ACAE01100C55797 /* CallsManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B77C79F22ACADF0E00C55797 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B77C79F72ACAE0B100C55797 /* CallCardView.swift */,
+				B77C79F92ACAE0FF00C55797 /* CallListView.swift */,
+				B77C79FB2ACAE1B600C55797 /* CallLinkCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77C79C82AC97FAF00C55797 /* ChatAppUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77C79D82AC97FB200C55797 /* Build configuration list for PBXNativeTarget "ChatAppUI" */;
+			buildPhases = (
+				B77C79C52AC97FAF00C55797 /* Sources */,
+				B77C79C62AC97FAF00C55797 /* Frameworks */,
+				B77C79C72AC97FAF00C55797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatAppUI;
+			productName = ChatAppUI;
+			productReference = B77C79C92AC97FAF00C55797 /* ChatAppUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77C79C12AC97FAF00C55797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B77C79C82AC97FAF00C55797 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B77C79C42AC97FAF00C55797 /* Build configuration list for PBXProject "ChatAppUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77C79C02AC97FAF00C55797;
+			productRefGroup = B77C79CA2AC97FAF00C55797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77C79C82AC97FAF00C55797 /* ChatAppUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77C79C72AC97FAF00C55797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77C79D52AC97FB200C55797 /* Preview Assets.xcassets in Resources */,
+				B77C79D12AC97FB200C55797 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77C79C52AC97FAF00C55797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77C79FA2ACAE0FF00C55797 /* CallListView.swift in Sources */,
+				B77C79F02ACADD3E00C55797 /* MyStatusCardView.swift in Sources */,
+				B77C79F62ACAE01100C55797 /* CallsManager.swift in Sources */,
+				B77C79F42ACADF4400C55797 /* CallsView.swift in Sources */,
+				B77C79EA2ACAD52100C55797 /* StatusCardView.swift in Sources */,
+				B77C79CD2AC97FAF00C55797 /* ChatAppUIApp.swift in Sources */,
+				B77C79E82AC9867A00C55797 /* StatusManager.swift in Sources */,
+				B77C79FC2ACAE1B600C55797 /* CallLinkCard.swift in Sources */,
+				B77C79DC2AC97FFA00C55797 /* BottomBar.swift in Sources */,
+				B77C79EC2ACAD91200C55797 /* StatusListView.swift in Sources */,
+				B77C79FE2ACAE42900C55797 /* CommunitiesView.swift in Sources */,
+				B77C79EE2ACADBBD00C55797 /* InfoTextView.swift in Sources */,
+				B77C79E62AC9865000C55797 /* StatusView.swift in Sources */,
+				B77C79F82ACAE0B100C55797 /* CallCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B77C79D62AC97FB200C55797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B77C79D72AC97FB200C55797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B77C79D92AC97FB200C55797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatAppUI/ChatAppUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatAppUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DCB9U785T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.ChatAppUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77C79DA2AC97FB200C55797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatAppUI/ChatAppUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatAppUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DCB9U785T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tharindu.ChatAppUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77C79C42AC97FAF00C55797 /* Build configuration list for PBXProject "ChatAppUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77C79D62AC97FB200C55797 /* Debug */,
+				B77C79D72AC97FB200C55797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77C79D82AC97FB200C55797 /* Build configuration list for PBXNativeTarget "ChatAppUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77C79D92AC97FB200C55797 /* Debug */,
+				B77C79DA2AC97FB200C55797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77C79C12AC97FAF00C55797 /* Project object */;
+}
